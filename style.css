@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.main {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.items {
+    height: auto;
+    width: 100%;
+    padding: 20px 0;
+    background: green;
+}
+
+#mission {
+    height: 500px;
+    width: 80vw;
+    background: red;
+    position: relative;
+    top: -100px;
+}
+
+.member-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    height: 300px;
+    width: 200px;
+    background: purple;
+    margin: 30px;
+}
+
+#contact {
+    margin: auto;
+    width: 80%;
+}
