@@ -17,6 +17,7 @@ body {
 
 .section-title {
     font-family: "Fjalla One", sans-serif;
+    border-bottom: 1px solid black;
     font-size: 30px;
     color: black;
 }
@@ -39,10 +40,10 @@ body {
 
 #mission {
     height: 500px;
-    width: 80vw;
-    background: red;
-    position: relative;
-    top: -100px;
+    padding: 30px 20%;
+    /* background: red; */
+    /* position: relative;
+    top: -100px; */
 }
 
 .member-item {
@@ -57,7 +58,7 @@ body {
     /* height: 400px;
     width: 300px; */
     /* background: purple; */
-    margin: 30px;
+    margin: 30px 0;
 }
 
 .member>p {
@@ -67,12 +68,14 @@ body {
 
 #contact {
     margin: auto;
-    width: 80%;
+    padding: 30px 20%;
+    /* width: 80%; */
+    background: gray;
 }
 
 .product {
     height: 300px;
-    width: 300px;
+    width: 100%;
     background: gray;
     opacity: 0.8;
     margin: auto;
@@ -80,16 +83,28 @@ body {
 }
 
 #service {
+    padding: 30px 20%;
     text-align: center;
     margin: 100px 0;
+    background: gray;
 }
 
 #members {
     margin: 20px;
+    padding: 30px 20%;
 }
 
 .slogan {
     margin: 150px auto;
     font-size: 50px;
     color: black;
+}
+
+.product>p {
+    margin: 300px auto;
+}
+
+.contact-form {
+    margin: 50px 0;
+    padding: 0 20%;
 }
