@@ -64,3 +64,27 @@ body {
     margin: auto;
     width: 80%;
 }
+
+.product {
+    height: 300px;
+    width: 300px;
+    background: gray;
+    opacity: 0.8;
+    margin: auto;
+    color: white;
+}
+
+#service {
+    text-align: center;
+    margin: 100px 0;
+}
+
+#members {
+    margin: 20px;
+}
+
+.slogan {
+    margin: 150px auto;
+    font-size: 50px;
+    color: black;
+}
