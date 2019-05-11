@@ -54,10 +54,15 @@ body {
 }
 
 .member {
-    height: 400px;
-    width: 300px;
-    background: purple;
+    /* height: 400px;
+    width: 300px; */
+    /* background: purple; */
     margin: 30px;
+}
+
+.member>p {
+    margin: 20px;
+    color: black;
 }
 
 #contact {
