@@ -36,8 +36,7 @@
 <body>
     <div class="header">
         <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand"><a class="navbar-item" href=""><img
-                        src="./assets/rakam.png" ></a><a role="button"
+            <div class="navbar-brand"><a class="navbar-item" href=""><img src="./assets/rakam.png"></a><a role="button"
                     class="navbar-burger burger" aria-label="menu" aria-expanded="false"
                     data-target="navbarBasicExample"><span aria-hidden="true"></span><span
                         aria-hidden="true"></span><span aria-hidden="true"></span></a></div>
@@ -48,11 +47,11 @@
                 <div class="navbar-end">
                     <div class="navbar-item">
                         <div class="buttons">
-                            <a class="navbar-item" href="#about-us">about us</a>
-                            <a class="navbar-item" href="#mission">mission</a>
-                            <a class="navbar-item" href="#service">service</a>
-                            <a class="navbar-item" href="#members">members</a>
-                            <a class="navbar-item" href="#contact">contact</a>
+                            <a class="navbar-item" href="#about-us">ABOUT US</a>
+                            <a class="navbar-item" href="#mission">MISSION</a>
+                            <a class="navbar-item" href="#service">SEVICE</a>
+                            <a class="navbar-item" href="#members">MEMBERS</a>
+                            <a class="navbar-item" href="#contact">CONTACT</a>
                         </div>
                     </div>
                 </div>
@@ -72,36 +71,56 @@
     <div class="main">
         <div class="items">
             <div id="about-us">
-                <p class="section-title">about us</p>
+                <p class="section-title">ABOUT US</p>
                 <div class="about-items">
                     <div class="about-item">
-                        <p class="about-title">会社名</p>
-                        <p class="about-info">株式会社Rakam</p>
+                        <div class="about-name">
+                            <p class="about-title">会社名</p>
+                        </div>
+                        <div class="about-desc">
+                            <p class="about-info">株式会社Rakam</p>
+                        </div>
+
+
                     </div>
                     <div class="about-item">
-                        <p class="about-title">会社設立日</p>
-                        <p class="about-info">2018年8月24日</p>
+                        <div class="about-name">
+                            <p class="about-title">会社設立日</p>
+                        </div>
+                        <div class="about-desc">
+                            <p class="about-info">2018年8月24日</p>
+                        </div>
                     </div>
                     <div class="about-item">
-                        <p class="about-title">代表取締役</p>
-                        <p class="about-info">三井龍一郎</p>
+                        <div class="about-name">
+                            <p class="about-title">代表取締役</p>
+                        </div>
+                        <div class="about-desc">
+                            <p class="about-info">三井龍一郎</p>
+                        </div>
                     </div>
                     <div class="about-item">
-                        <p class="about-title">事業内容</p>
-                        <p class="about-info">学生と企業のマッチングサービス</p>
+                        <div class="about-name">
+                            <p class="about-title">事業内容</p>
+                        </div>
+                        <div class="about-desc">
+                            <p class="about-info">学生と企業のマッチングサービス</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div id="mission">
-                <p class="section-title">mission</p>
+                <p class="section-title">MISSION</p>
                 <p class="slogan"><b>若者の力で日本を熱く</b></p>
             </div>
             <div id="service">
-                <p class="section-title">service</p>
-                <div class="product"><p>comming soon...</p></div>
+                <p class="section-title">SERVICE</p>
+                <div class="product">
+                    <p>comming soon...</p>
+                </div>
             </div>
             <div id="members">
-                <p class="section-title">members</p>
+                <p class="section-title">MEMBERS</p>
                 <div class="member-item">
                     <div class="member">
                         <img src="./assets/ikemen.jpg" alt="ikemen" width="300" height="300">
@@ -111,26 +130,33 @@
                 </div>
             </div>
             <div id="contact">
-                <p class="section-title">contact us</p>
-                <form action="https://docs.google.com/forms/d/e/1FAIpQLSdtBMb619F6h4bAy_iwY8hjPVjb2C6iwWzqTauWWuQTj0i-OA/formResponse" class="contact-form">
-                        <div class="field"><label class="label">Name</label>
-                            <div class="control"><input class="input" name="entry.61545746" type="text" placeholder="例)山田 太郎"></div>
+                <p class="section-title">CONTACT US</p>
+                <form
+                    action="https://docs.google.com/forms/d/e/1FAIpQLSdtBMb619F6h4bAy_iwY8hjPVjb2C6iwWzqTauWWuQTj0i-OA/formResponse"
+                    class="contact-form">
+                    <div class="field"><label class="label">Name</label>
+                        <div class="control"><input class="input" name="entry.61545746" type="text"
+                                placeholder="例)山田 太郎"></div>
+                    </div>
+                    <div class="field"><label class="label">Email</label>
+                        <div class="control"><input class="input" type="text" name="emailAddress"
+                                placeholder="例) example@gmail.com"></div>
+                    </div>
+                    <div class="field"><label class="label">TEL</label>
+                        <div class="control"><input class="input" name="entry.271887161" type="text"
+                                placeholder="例)09012345678"></div>
+                    </div>
+                    <div class="field"><label class="label">Message</label>
+                        <div class="control"><textarea class="textarea" placeholder=""
+                                name="entry.837925139"></textarea></div>
+                    </div>
+
+                    <div class="field is-grouped">
+                        <div class="control"><button class="button is-link" type="submit" name="button">Submit</button>
                         </div>
-                        <div class="field"><label class="label">Email</label>
-                            <div class="control"><input class="input" type="text" name="emailAddress" placeholder="例) example@gmail.com"></div>
-                        </div>
-                        <div class="field"><label class="label">TEL</label>
-                            <div class="control"><input class="input" name="entry.271887161" type="text" placeholder="例)09012345678"></div>
-                        </div>
-                        <div class="field"><label class="label">Message</label>
-                            <div class="control"><textarea class="textarea" placeholder="" name="entry.837925139"></textarea></div>
-                        </div>
-                        
-                        <div class="field is-grouped">
-                            <div class="control"><button class="button is-link" type="submit" name="button">Submit</button></div>
-                        </div>
+                    </div>
                 </form>
-                
+
             </div>
         </div>
     </div>
